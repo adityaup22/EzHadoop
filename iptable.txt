@@ -1,0 +1,12 @@
+<table appml-data="nn">
+<tr>
+  <th>IP Address</th>
+  <th>RAM</th>
+  <th>DISK SPACE</th>
+</tr>
+<tr appml-repeat="details">
+  <td><button>{{IpAddress}}</button></td>
+  <td>{{Ram}}</td>
+  <td>{{Disk}}</td>
+</tr>
+</table>

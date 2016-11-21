@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+div.topmenu{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:7%;
+	background-image:url(images/ui-bg_flat_0_333333_40x100.png);
+	}
+
+.menubutton{
+	position:absolute;
+	top:32%;
+	height:68%;
+	width:11%;
+	color:white;
+	font-size:18px;
+	font-weight:lighter;
+	background-color:transparent;
+	border:none;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	cursor:pointer;
+	}
+.nav navbar-right top-nav{
+	background-color:transparent;
+	color:white;	
+	}
+
+#home{
+	left:33%;}
+#services{
+	left:44%;
+	}
+#an{
+	left:55%;}
+#ann{
+	left:66%;}
+#logout{
+	left:83%;}
+#setting{
+	width:7%;
+	left:92%;}
+.menubutton:hover{
+	background-color:white;
+	color:#2A1F55;
+	font-weight:light;}
+#setting:hover{
+	background-color:transparent;}
+
+.siteicon{
+	color:white;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+	;
+	position:absolute;
+	
+	width:20%;
+	left:5%;
+	top:-2%;
+	padding:0px;
+	font-weight:lighter;
+	}
+#leftback{
+	position:absolute;
+	top:7%;
+	left:0%;
+	height:93%;
+	width:15%;
+	background-image:url(images/ui-bg_dots-small_65_a6a6a6_2x2.png);
+	}	
+.menu{
+	position:absolute;
+	left:10%;
+	top:20%;
+	background-color:white;
+	height:50%;
+	width:80%;
+	border-radius:5px;
+	box-shadow:3px 3px 5px #696969;}
+
+
+
+.menu button{
+	position:relative;
+	height:33.333333333%;
+	width:100%;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:medium;
+	font-weight:light;
+	color:white;
+	border:none;
+	background-image:url(images/ui-bg_flat_0_333333_40x100.png);
+	cursor:pointer;
+	}
+#two button{
+	top:0%;
+	height:33.6%;}
+
+.menu button:hover{
+	background-image:none;
+	background-color:black;}
+	
+
+
+#welcome{
+	position:absolute;
+	 top:7%;
+	  left:17%; 
+	  color:#2A3F55;
+	   font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; 
+	font-size:2em; }
+
+iframe{
+	
+	position:absolute;
+	height:5%;
+	width:5%;
+	top:15%;
+	left:16%;
+	border:1px solid grey;
+	border-radius:3px;}

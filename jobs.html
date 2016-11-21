@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jobs</title>
+<script src="jobs.js"></script>
+<script src="http://www.w3schools.com/appml/2.0.3/appml.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+<h1 style="text-align:center;" >JOBS</h1>
+<hr/>
+<div class="container" appml-data="nn">
+<table class="table table-striped table-bordered">
+<tr>
+  <th>Job Id</th>
+  <th>Started By</th>
+  <th>Complete%</th>
+  <th>Priority</th>
+  
+</tr>
+<tr appml-repeat="details">
+  <td>{{jobid}}</td>
+  <td>{{startedby}}</td>
+  <td>{{complete}}</td>
+  <td>{{priority}}</td>
+  
+</tr>
+</table>
+</div>
+</body>
+</html>

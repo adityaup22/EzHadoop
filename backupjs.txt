@@ -1,0 +1,30 @@
+//first creating a main function which will be ececuted when page is loaded completly		
+$ (function()
+	{
+		//this function is for getting json data when clicked on the element of #custom id 
+		$('#custom').click(function(){   // on clicking a function is called 
+				
+				$.getJSON('ip.json', function(data){  // which will give data received by JSON file to another function------------ this --> data <-- is a javascript object of information in the file so we need a function to handle this this data
+							
+							var items = [];
+							
+							$.each(data,function(key, val){ // each is a javascript method which itterates through javascript object  --------------  now when we itterate each line we het a key and a value , ----- now we have to handle this 
+									
+									
+									 items.push('<li id="' + key + '">' + val + '</li>');  // here key is used as id of a list item and val is used to display on the screen  ------------- and by using push method we are pushing these values to out items array ----------------- so that we can deal with it...
+								});
+								
+							// now to handle these list item in the array we need an unordered list in which we can place them but we dont have an <ul> tag so we make it through jQuery-
+							
+							$('<ul/>',                   // creating an <ul>
+								{
+									'class': 'ips list',     // giving it a class ----- and never forget an comma in the end ,please 
+									html: items.join('') // for the html part of the ul we take items array and join the values in it---------- and giving a seperator i am not giving anything
+								}).appendTo('#ip');
+								
+							
+							
+						});	
+				
+			});
+	});

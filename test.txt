@@ -1,0 +1,7 @@
+<span style="font-family:verdana;font-weight:normal;">
+	192.168.0.1  Has  1GB  RAM ,  50GB  Disk <br/>
+	192.168.0.1  Has  1GB  RAM ,  50GB  Disk <br/>
+	192.168.0.2  Has  2GB  RAM ,500GB  Disk <br/>
+	192.168.0.3  Has  3GB  RAM ,  40GB  Disk <br/>
+	192.168.0.4  Has  4GB RAM , 770GB  Disk <br/>
+</span>
